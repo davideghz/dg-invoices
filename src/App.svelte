@@ -78,3 +78,15 @@
 		</div>
 	{/if}
 </div>
+
+<style lang="scss">
+	.wrapper {
+		background-color: pink;
+		padding: 15px;
+
+		button {
+			background-color: lightcoral;
+			color: white;
+		}
+	}
+</style>
