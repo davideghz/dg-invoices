@@ -1,4 +1,15 @@
-/node_modules/
+# Build
 /public/build/
 
+# Dependencies
+/node_modules/
+
+# Apple
 .DS_Store
+
+# Jetbrain
+.idea
+
+# Firebase Hosting
+.firebaserc
+firebase-debug.log
