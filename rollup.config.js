@@ -48,7 +48,8 @@ export default {
 				dev: !production
 			},
 		}),
-		css({ output: 'public/build/bundle.css' }),
+		css({ output: 'public/' +
+				'build/bundle.css' }),
 
 		// If you have external dependencies installed from
 		// npm, you'll most likely need these plugins. In
