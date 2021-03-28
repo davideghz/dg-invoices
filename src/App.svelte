@@ -3,7 +3,7 @@
 	import Home from "./Components/Home.svelte";
 	import About from "./Components/About.svelte";
 
-	export let url = "/";
+	export let url = "";
 </script>
 
 <Router url="{url}">
@@ -15,5 +15,8 @@
 	<div>
 		<Route path="/"><Home /></Route>
 		<Route path="about"><About /></Route>
+		<Route>
+			<h1>404 - Not found</h1>
+		</Route>
 	</div>
 </Router>
